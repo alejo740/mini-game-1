@@ -1,0 +1,50 @@
+# The name, version and identifier, for mobile app packaging
+name: UMIGO Appisode 1
+version: 1.0.0
+id: com.nditeravision.umigoappisode1
+
+# The main class name
+main: Main
+
+# The platform to use when invoking `run` or `build` with no arguments
+default_platform: flash
+
+# Additional flags to pass to the Haxe compiler
+haxe_flags: -D foobar -D flambe_transparent
+
+# Additional paths to include in the build
+# extra_paths:
+#   assets: dir1 dir2
+#   libs: dir1 dir2
+#   src: ../dir1 ../dir2
+#   web: ["dir1 with spaces", "dir2"]
+
+# The initial orientation and fullscreen state
+orientation: landscape
+fullscreen: true
+
+# Android-specific configuration
+android:
+  # https://developer.android.com/guide/topics/manifest/manifest-intro.html
+  AndroidManifest.xml: |
+    <manifest android:installLocation="auto">
+      <uses-permission android:name="android.permission.WAKE_LOCK" /><uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    </manifest>
+
+# iOS-specific configuration
+ios:
+  # http://developer.apple.com/library/ios/#documentation/general/Reference/InfoPlistKeyReference
+  Info.plist: |
+    <key>UIDeviceFamily</key>
+    <array>
+      <string>1</string>
+      <string>2</string>
+    </array>
+    <key>UIPrerenderedIcon</key>
+    <true/>
+
+# Runs the build
+def build(ctx):
+    # Kick off a build with the desired platforms
+    ctx(features="flambe",
+        platforms=["flash", "html"])

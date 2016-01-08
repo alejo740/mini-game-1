@@ -1,0 +1,270 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'update', '-g', 'flambe' ]
+2 info using npm@1.3.8
+3 info using node@v0.10.18
+4 verbose cache add [ 'flambe', '*' ]
+5 verbose cache add name="flambe" spec="*" args=["flambe","*"]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: '*',
+6 verbose parsed url   path: '*',
+6 verbose parsed url   href: '*' }
+7 verbose addNamed [ 'flambe', '*' ]
+8 verbose addNamed [ null, '*' ]
+9 silly lockFile afe72d4e-flambe flambe@*
+10 verbose lock flambe@* /Users/corporacionteravisioncolombia/.npm/afe72d4e-flambe.lock
+11 silly addNameRange { name: 'flambe', range: '*', hasData: false }
+12 verbose url raw flambe
+13 verbose url resolving [ 'https://registry.npmjs.org/', './flambe' ]
+14 verbose url resolved https://registry.npmjs.org/flambe
+15 info trying registry request attempt 1 at 14:13:34
+16 verbose etag "18XRU0RF4IH66DNR37ILIMD1G"
+17 http GET https://registry.npmjs.org/flambe
+18 http 200 https://registry.npmjs.org/flambe
+19 silly registry.get cb [ 200,
+19 silly registry.get   { date: 'Thu, 27 Mar 2014 19:10:10 GMT',
+19 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+19 silly registry.get     etag: '"QQCJ711IXJSDY5VZKYTH6EPV"',
+19 silly registry.get     'content-type': 'application/json',
+19 silly registry.get     via: '1.1 varnish',
+19 silly registry.get     'cache-control': 'max-age=1',
+19 silly registry.get     'content-length': '5083',
+19 silly registry.get     'accept-ranges': 'bytes',
+19 silly registry.get     age: '3304',
+19 silly registry.get     'x-served-by': 'cache-v43-ASH, cache-jfk1020-JFK',
+19 silly registry.get     'x-cache': 'MISS, MISS',
+19 silly registry.get     'x-cache-hits': '0, 0',
+19 silly registry.get     'x-timer': 'S1395944106.575238705,VS0,VS-97,VE-13,VE3304219',
+19 silly registry.get     vary: 'Accept',
+19 silly registry.get     'keep-alive': 'timeout=10, max=50',
+19 silly registry.get     connection: 'Keep-Alive' } ]
+20 silly addNameRange number 2 { name: 'flambe', range: '*', hasData: true }
+21 silly addNameRange versions [ 'flambe', [ '3.1.0', '3.1.1', '3.1.2', '4.0.0' ] ]
+22 verbose addNamed [ 'flambe', '4.0.0' ]
+23 verbose addNamed [ '4.0.0', '4.0.0' ]
+24 silly lockFile a2f452af-flambe-4-0-0 flambe@4.0.0
+25 verbose lock flambe@4.0.0 /Users/corporacionteravisioncolombia/.npm/a2f452af-flambe-4-0-0.lock
+26 silly lockFile a2f452af-flambe-4-0-0 flambe@4.0.0
+27 silly lockFile a2f452af-flambe-4-0-0 flambe@4.0.0
+28 silly lockFile afe72d4e-flambe flambe@*
+29 silly lockFile afe72d4e-flambe flambe@*
+30 info outdated updating [ [ '/usr/local/lib', 'flambe', '4.0.0', '4.0.0', '*' ] ]
+31 verbose install where,what [ '/usr/local/lib', [ 'flambe@4.0.0' ] ]
+32 verbose cache add [ 'flambe@4.0.0', null ]
+33 verbose cache add name=undefined spec="flambe@4.0.0" args=["flambe@4.0.0",null]
+34 verbose parsed url { protocol: null,
+34 verbose parsed url   slashes: null,
+34 verbose parsed url   auth: null,
+34 verbose parsed url   host: null,
+34 verbose parsed url   port: null,
+34 verbose parsed url   hostname: null,
+34 verbose parsed url   hash: null,
+34 verbose parsed url   search: null,
+34 verbose parsed url   query: null,
+34 verbose parsed url   pathname: 'flambe@4.0.0',
+34 verbose parsed url   path: 'flambe@4.0.0',
+34 verbose parsed url   href: 'flambe@4.0.0' }
+35 verbose cache add name="flambe" spec="4.0.0" args=["flambe","4.0.0"]
+36 verbose parsed url { protocol: null,
+36 verbose parsed url   slashes: null,
+36 verbose parsed url   auth: null,
+36 verbose parsed url   host: null,
+36 verbose parsed url   port: null,
+36 verbose parsed url   hostname: null,
+36 verbose parsed url   hash: null,
+36 verbose parsed url   search: null,
+36 verbose parsed url   query: null,
+36 verbose parsed url   pathname: '4.0.0',
+36 verbose parsed url   path: '4.0.0',
+36 verbose parsed url   href: '4.0.0' }
+37 verbose addNamed [ 'flambe', '4.0.0' ]
+38 verbose addNamed [ '4.0.0', '4.0.0' ]
+39 silly lockFile a2f452af-flambe-4-0-0 flambe@4.0.0
+40 verbose lock flambe@4.0.0 /Users/corporacionteravisioncolombia/.npm/a2f452af-flambe-4-0-0.lock
+41 verbose url raw flambe/4.0.0
+42 verbose url resolving [ 'https://registry.npmjs.org/', './flambe/4.0.0' ]
+43 verbose url resolved https://registry.npmjs.org/flambe/4.0.0
+44 info trying registry request attempt 1 at 14:13:35
+45 verbose etag "18XRU0RF4IH66DNR37ILIMD1G"
+46 http GET https://registry.npmjs.org/flambe/4.0.0
+47 http 200 https://registry.npmjs.org/flambe/4.0.0
+48 silly registry.get cb [ 200,
+48 silly registry.get   { date: 'Thu, 27 Mar 2014 19:10:11 GMT',
+48 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B)',
+48 silly registry.get     etag: '"QQCJ711IXJSDY5VZKYTH6EPV"',
+48 silly registry.get     'content-type': 'application/json',
+48 silly registry.get     via: '1.1 varnish',
+48 silly registry.get     'cache-control': 'max-age=1',
+48 silly registry.get     'content-length': '1026',
+48 silly registry.get     'accept-ranges': 'bytes',
+48 silly registry.get     age: '0',
+48 silly registry.get     'x-served-by': 'cache-v43-ASH, cache-jfk1033-JFK',
+48 silly registry.get     'x-cache': 'MISS, MISS',
+48 silly registry.get     'x-cache-hits': '0, 0',
+48 silly registry.get     'x-timer': 'S1395947411.274559498,VS0,VS-98,VE-19,VE87',
+48 silly registry.get     vary: 'Accept',
+48 silly registry.get     'keep-alive': 'timeout=10, max=50',
+48 silly registry.get     connection: 'Keep-Alive' } ]
+49 silly lockFile d4f43ef3-pmjs-org-flambe-flambe-4-0-0-tgz https://registry.npmjs.org/flambe/-/flambe-4.0.0.tgz
+50 verbose lock https://registry.npmjs.org/flambe/-/flambe-4.0.0.tgz /Users/corporacionteravisioncolombia/.npm/d4f43ef3-pmjs-org-flambe-flambe-4-0-0-tgz.lock
+51 verbose addRemoteTarball [ 'https://registry.npmjs.org/flambe/-/flambe-4.0.0.tgz',
+51 verbose addRemoteTarball   '56307e26d5d1dc0643a5d6711a2f959dc6d3ee60' ]
+52 info retry fetch attempt 1 at 14:13:35
+53 verbose fetch to= /var/folders/n4/r6s63fns08g6880dszht8t5c0000gn/T/npm-2348-_tIEQOn6/1395947615834-0.008306494215503335/tmp.tgz
+54 http GET https://registry.npmjs.org/flambe/-/flambe-4.0.0.tgz
+55 http 200 https://registry.npmjs.org/flambe/-/flambe-4.0.0.tgz
+56 verbose tar unpack /var/folders/n4/r6s63fns08g6880dszht8t5c0000gn/T/npm-2348-_tIEQOn6/1395947615834-0.008306494215503335/tmp.tgz
+57 silly lockFile 57c6993d-834-0-008306494215503335-package tar:///var/folders/n4/r6s63fns08g6880dszht8t5c0000gn/T/npm-2348-_tIEQOn6/1395947615834-0.008306494215503335/package
+58 verbose lock tar:///var/folders/n4/r6s63fns08g6880dszht8t5c0000gn/T/npm-2348-_tIEQOn6/1395947615834-0.008306494215503335/package /Users/corporacionteravisioncolombia/.npm/57c6993d-834-0-008306494215503335-package.lock
+59 silly lockFile e8533822-834-0-008306494215503335-tmp-tgz tar:///var/folders/n4/r6s63fns08g6880dszht8t5c0000gn/T/npm-2348-_tIEQOn6/1395947615834-0.008306494215503335/tmp.tgz
+60 verbose lock tar:///var/folders/n4/r6s63fns08g6880dszht8t5c0000gn/T/npm-2348-_tIEQOn6/1395947615834-0.008306494215503335/tmp.tgz /Users/corporacionteravisioncolombia/.npm/e8533822-834-0-008306494215503335-tmp-tgz.lock
+61 silly gunzTarPerm modes [ '755', '644' ]
+62 silly gunzTarPerm extractEntry package.json
+63 silly gunzTarPerm extractEntry README.md
+64 silly gunzTarPerm extractEntry flambe.js
+65 silly gunzTarPerm extractEntry index.js
+66 silly gunzTarPerm extractEntry data/flambe.js
+67 silly gunzTarPerm extractEntry data/closure.jar
+68 silly gunzTarPerm extractEntry data/embedder/flambe.js
+69 silly gunzTarPerm extractEntry data/embedder/minify.js
+70 silly gunzTarPerm extractEntry data/embedder/swfobject.js
+71 silly gunzTarPerm extractEntry data/firefox/index.html
+72 silly gunzTarPerm extractEntry data/scaffold/Project.hxproj
+73 silly gunzTarPerm extractEntry data/scaffold/_.gitignore
+74 silly gunzTarPerm extractEntry data/scaffold/assets/bootstrap/plane.png
+75 silly gunzTarPerm extractEntry data/scaffold/flambe.yaml
+76 silly gunzTarPerm extractEntry data/scaffold/icons/114x114.png
+77 silly gunzTarPerm extractEntry data/scaffold/icons/128x128.png
+78 silly gunzTarPerm extractEntry data/scaffold/icons/144x144.png
+79 silly gunzTarPerm extractEntry data/scaffold/icons/57x57.png
+80 silly gunzTarPerm extractEntry data/scaffold/icons/72x72.png
+81 silly gunzTarPerm extractEntry data/scaffold/src/urgame/Main.hx
+82 silly gunzTarPerm extractEntry data/scaffold/web/favicon.ico
+83 silly gunzTarPerm extractEntry data/scaffold/web/index.html
+84 silly lockFile 57c6993d-834-0-008306494215503335-package tar:///var/folders/n4/r6s63fns08g6880dszht8t5c0000gn/T/npm-2348-_tIEQOn6/1395947615834-0.008306494215503335/package
+85 silly lockFile 57c6993d-834-0-008306494215503335-package tar:///var/folders/n4/r6s63fns08g6880dszht8t5c0000gn/T/npm-2348-_tIEQOn6/1395947615834-0.008306494215503335/package
+86 silly lockFile e8533822-834-0-008306494215503335-tmp-tgz tar:///var/folders/n4/r6s63fns08g6880dszht8t5c0000gn/T/npm-2348-_tIEQOn6/1395947615834-0.008306494215503335/tmp.tgz
+87 silly lockFile e8533822-834-0-008306494215503335-tmp-tgz tar:///var/folders/n4/r6s63fns08g6880dszht8t5c0000gn/T/npm-2348-_tIEQOn6/1395947615834-0.008306494215503335/tmp.tgz
+88 verbose tar pack [ '/Users/corporacionteravisioncolombia/.npm/flambe/4.0.0/package.tgz',
+88 verbose tar pack   '/var/folders/n4/r6s63fns08g6880dszht8t5c0000gn/T/npm-2348-_tIEQOn6/1395947615834-0.008306494215503335/package' ]
+89 verbose tarball /Users/corporacionteravisioncolombia/.npm/flambe/4.0.0/package.tgz
+90 verbose folder /var/folders/n4/r6s63fns08g6880dszht8t5c0000gn/T/npm-2348-_tIEQOn6/1395947615834-0.008306494215503335/package
+91 silly lockFile 57c6993d-834-0-008306494215503335-package tar:///var/folders/n4/r6s63fns08g6880dszht8t5c0000gn/T/npm-2348-_tIEQOn6/1395947615834-0.008306494215503335/package
+92 verbose lock tar:///var/folders/n4/r6s63fns08g6880dszht8t5c0000gn/T/npm-2348-_tIEQOn6/1395947615834-0.008306494215503335/package /Users/corporacionteravisioncolombia/.npm/57c6993d-834-0-008306494215503335-package.lock
+93 silly lockFile 59bce22a-bia-npm-flambe-4-0-0-package-tgz tar:///Users/corporacionteravisioncolombia/.npm/flambe/4.0.0/package.tgz
+94 verbose lock tar:///Users/corporacionteravisioncolombia/.npm/flambe/4.0.0/package.tgz /Users/corporacionteravisioncolombia/.npm/59bce22a-bia-npm-flambe-4-0-0-package-tgz.lock
+95 silly lockFile 57c6993d-834-0-008306494215503335-package tar:///var/folders/n4/r6s63fns08g6880dszht8t5c0000gn/T/npm-2348-_tIEQOn6/1395947615834-0.008306494215503335/package
+96 silly lockFile 57c6993d-834-0-008306494215503335-package tar:///var/folders/n4/r6s63fns08g6880dszht8t5c0000gn/T/npm-2348-_tIEQOn6/1395947615834-0.008306494215503335/package
+97 silly lockFile 59bce22a-bia-npm-flambe-4-0-0-package-tgz tar:///Users/corporacionteravisioncolombia/.npm/flambe/4.0.0/package.tgz
+98 silly lockFile 59bce22a-bia-npm-flambe-4-0-0-package-tgz tar:///Users/corporacionteravisioncolombia/.npm/flambe/4.0.0/package.tgz
+99 silly lockFile 5a89eaa5-olombia-npm-flambe-4-0-0-package /Users/corporacionteravisioncolombia/.npm/flambe/4.0.0/package
+100 verbose lock /Users/corporacionteravisioncolombia/.npm/flambe/4.0.0/package /Users/corporacionteravisioncolombia/.npm/5a89eaa5-olombia-npm-flambe-4-0-0-package.lock
+101 silly lockFile 5a89eaa5-olombia-npm-flambe-4-0-0-package /Users/corporacionteravisioncolombia/.npm/flambe/4.0.0/package
+102 silly lockFile 5a89eaa5-olombia-npm-flambe-4-0-0-package /Users/corporacionteravisioncolombia/.npm/flambe/4.0.0/package
+103 verbose tar unpack /Users/corporacionteravisioncolombia/.npm/flambe/4.0.0/package.tgz
+104 silly lockFile 43b484b8-olombia-npm-flambe-4-0-0-package tar:///Users/corporacionteravisioncolombia/.npm/flambe/4.0.0/package
+105 verbose lock tar:///Users/corporacionteravisioncolombia/.npm/flambe/4.0.0/package /Users/corporacionteravisioncolombia/.npm/43b484b8-olombia-npm-flambe-4-0-0-package.lock
+106 silly lockFile 59bce22a-bia-npm-flambe-4-0-0-package-tgz tar:///Users/corporacionteravisioncolombia/.npm/flambe/4.0.0/package.tgz
+107 verbose lock tar:///Users/corporacionteravisioncolombia/.npm/flambe/4.0.0/package.tgz /Users/corporacionteravisioncolombia/.npm/59bce22a-bia-npm-flambe-4-0-0-package-tgz.lock
+108 silly gunzTarPerm modes [ '755', '644' ]
+109 silly gunzTarPerm extractEntry package.json
+110 silly gunzTarPerm extractEntry README.md
+111 silly gunzTarPerm extractEntry flambe.js
+112 silly gunzTarPerm extractEntry index.js
+113 silly gunzTarPerm extractEntry data/flambe.js
+114 silly gunzTarPerm extractEntry data/closure.jar
+115 silly gunzTarPerm extractEntry data/embedder/flambe.js
+116 silly gunzTarPerm extractEntry data/embedder/minify.js
+117 silly gunzTarPerm extractEntry data/embedder/swfobject.js
+118 silly gunzTarPerm extractEntry data/firefox/index.html
+119 silly gunzTarPerm extractEntry data/scaffold/Project.hxproj
+120 silly gunzTarPerm extractEntry data/scaffold/_.gitignore
+121 silly gunzTarPerm extractEntry data/scaffold/assets/bootstrap/plane.png
+122 silly gunzTarPerm extractEntry data/scaffold/flambe.yaml
+123 silly gunzTarPerm extractEntry data/scaffold/icons/114x114.png
+124 silly gunzTarPerm extractEntry data/scaffold/icons/128x128.png
+125 silly gunzTarPerm extractEntry data/scaffold/icons/144x144.png
+126 silly gunzTarPerm extractEntry data/scaffold/icons/57x57.png
+127 silly gunzTarPerm extractEntry data/scaffold/icons/72x72.png
+128 silly gunzTarPerm extractEntry data/scaffold/src/urgame/Main.hx
+129 silly gunzTarPerm extractEntry data/scaffold/web/favicon.ico
+130 silly gunzTarPerm extractEntry data/scaffold/web/index.html
+131 silly lockFile 43b484b8-olombia-npm-flambe-4-0-0-package tar:///Users/corporacionteravisioncolombia/.npm/flambe/4.0.0/package
+132 silly lockFile 43b484b8-olombia-npm-flambe-4-0-0-package tar:///Users/corporacionteravisioncolombia/.npm/flambe/4.0.0/package
+133 silly lockFile 59bce22a-bia-npm-flambe-4-0-0-package-tgz tar:///Users/corporacionteravisioncolombia/.npm/flambe/4.0.0/package.tgz
+134 silly lockFile 59bce22a-bia-npm-flambe-4-0-0-package-tgz tar:///Users/corporacionteravisioncolombia/.npm/flambe/4.0.0/package.tgz
+135 verbose chmod /Users/corporacionteravisioncolombia/.npm/flambe/4.0.0/package.tgz 644
+136 verbose chown /Users/corporacionteravisioncolombia/.npm/flambe/4.0.0/package.tgz [ 501, 20 ]
+137 silly lockFile d4f43ef3-pmjs-org-flambe-flambe-4-0-0-tgz https://registry.npmjs.org/flambe/-/flambe-4.0.0.tgz
+138 silly lockFile d4f43ef3-pmjs-org-flambe-flambe-4-0-0-tgz https://registry.npmjs.org/flambe/-/flambe-4.0.0.tgz
+139 silly lockFile a2f452af-flambe-4-0-0 flambe@4.0.0
+140 silly lockFile a2f452af-flambe-4-0-0 flambe@4.0.0
+141 silly resolved [ { author:
+141 silly resolved      { name: 'Bruno Garcia',
+141 silly resolved        email: 'b@aduros.com',
+141 silly resolved        url: 'https://twitter.com/b_garcia' },
+141 silly resolved     bin: { flambe: 'flambe.js' },
+141 silly resolved     bugs:
+141 silly resolved      { url: 'https://github.com/aduros/flambe/issues',
+141 silly resolved        email: 'flambe@googlegroups.com' },
+141 silly resolved     dependencies:
+141 silly resolved      { 'adm-zip': '~0.4.3',
+141 silly resolved        argparse: '~0.1.15',
+141 silly resolved        connect: '~2.8.3',
+141 silly resolved        'js-yaml': '~2.1.0',
+141 silly resolved        ncp: '~0.4.2',
+141 silly resolved        open: '~0.0.3',
+141 silly resolved        q: '~0.9.6',
+141 silly resolved        watch: '~0.8.0',
+141 silly resolved        websocket: '~1.0.8',
+141 silly resolved        wrench: '~1.5.1',
+141 silly resolved        xmldom: '~0.1.16' },
+141 silly resolved     description: 'Rapidly cook up games for HTML5 and Flash.',
+141 silly resolved     engines: { node: '>=0.8.0' },
+141 silly resolved     homepage: 'http://getflambe.com',
+141 silly resolved     license: 'MIT',
+141 silly resolved     main: 'index.js',
+141 silly resolved     name: 'flambe',
+141 silly resolved     preferGlobal: true,
+141 silly resolved     repository: { type: 'git', url: 'https://github.com/aduros/flambe' },
+141 silly resolved     version: '4.0.0',
+141 silly resolved     readme: '# Flambe\n\nThe Flambe command-line tool. Visit [getflambe.com] for install instructions.\n\n[getflambe.com]: http://getflambe.com\n',
+141 silly resolved     readmeFilename: 'README.md',
+141 silly resolved     _id: 'flambe@4.0.0',
+141 silly resolved     _from: 'flambe@4.0.0',
+141 silly resolved     dist: { shasum: '168ff7ebafac3c75a651378b49c722954c6c8bfb' },
+141 silly resolved     _resolved: 'https://registry.npmjs.org/flambe/-/flambe-4.0.0.tgz' } ]
+142 info install flambe@4.0.0 into /usr/local/lib
+143 info installOne flambe@4.0.0
+144 info /usr/local/lib/node_modules/flambe unbuild
+145 info preuninstall flambe@4.0.0
+146 info uninstall flambe@4.0.0
+147 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild flambe@4.0.0
+148 verbose /usr/local/bin,[object Object] binRoot
+149 info /usr/local/lib/node_modules/flambe unbuild
+150 info preuninstall flambe@4.0.0
+151 info uninstall flambe@4.0.0
+152 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild flambe@4.0.0
+153 verbose /usr/local/bin,[object Object] binRoot
+154 error error rolling back Error: EACCES, unlink '/usr/local/bin/flambe'
+154 error error rolling back  flambe@4.0.0 { [Error: EACCES, unlink '/usr/local/bin/flambe'] errno: 3, code: 'EACCES', path: '/usr/local/bin/flambe' }
+155 error Error: EACCES, unlink '/usr/local/bin/flambe'
+155 error  { [Error: EACCES, unlink '/usr/local/bin/flambe'] errno: 3, code: 'EACCES', path: '/usr/local/bin/flambe' }
+156 error Please try running this command again as root/Administrator.
+157 error System Darwin 13.1.0
+158 error command "node" "/usr/local/bin/npm" "update" "-g" "flambe"
+159 error cwd /Users/corporacionteravisioncolombia/Documents/Projects/UMIGO Appisodes/Appisode_1
+160 error node -v v0.10.18
+161 error npm -v 1.3.8
+162 error path /usr/local/bin/flambe
+163 error code EACCES
+164 error errno 3
+165 error stack Error: EACCES, unlink '/usr/local/bin/flambe'
+166 verbose exit [ 3, true ]
